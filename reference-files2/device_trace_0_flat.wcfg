@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files2/device_trace_0.wdb" id="1">
+         <top_modules>
+            <top_module name="Active" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="2" />
+   <wave_markers>
+   </wave_markers>
+</wave_config>

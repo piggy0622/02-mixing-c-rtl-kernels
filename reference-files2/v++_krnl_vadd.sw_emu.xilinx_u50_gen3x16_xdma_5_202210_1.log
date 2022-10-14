@@ -1,0 +1,22 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ link can be found at:
+	Reports: /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files2/_x/reports/link
+	Log files: /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files2/_x/logs/link
+INFO: [v++ 60-1548] Creating build summary session with primary output /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files2/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin.link_summary, at Thu Oct 13 19:48:06 2022
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Thu Oct 13 19:48:06 2022
+INFO: [v++ 60-1315] Creating rulecheck session with output '/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files2/_x/reports/link/v++_link_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_guidance.html', at Thu Oct 13 19:48:07 2022
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_5_202210_1/xilinx_u50_gen3x16_xdma_5_202210_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_5_202210_1/hw/hw.xsa'
+INFO: [v++ 74-78] Compiler Version string: 2022.1
+INFO: [v++ 60-629] Linking for software emulation target
+INFO: [v++ 60-423]   Target device: xilinx_u50_gen3x16_xdma_5_202210_1
+INFO: [v++ 60-645] kernel flags are '-g'
+INFO: [v++ 60-645] kernel flags are '-g -I /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files2/src/kernel_cpp -g'
+INFO: [v++ 60-586] Created krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin
+INFO: [v++ 60-1307] Run completed. Additional information can be found in:
+	Guidance: /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files2/_x/reports/link/v++_link_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_guidance.html
+	Steps Log File: /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files2/_x/logs/link/link.steps.log
+
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files2/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin.link_summary 
+INFO: [v++ 60-791] Total elapsed time: 0h 0m 17s
+INFO: [v++ 60-1653] Closing dispatch client.

@@ -1,0 +1,499 @@
+{
+ "session": {
+  "name": "v++_link_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1",
+  "uuid": "8b8c62fd-d12d-447e-af3f-a5cd9219ac7a",
+  "description": "v++  -t hw_emu --platform xilinx_u50_gen3x16_xdma_5_202210_1 --config run1.cfg --profile.data all:all:all --profile.stall all:all:all --profile.exec all:all:all -l -okrnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xo ",
+  "timestamp": "0",
+  "report_file": {
+   "scheme": "FILE",
+   "host": "",
+   "port": 0,
+   "path": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/reports/link/v++_link_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_guidance.html",
+   "query": "",
+   "fragment": "",
+   "media_type": "",
+   "encoding": "",
+   "data": ""
+  },
+  "proto_file": {
+   "scheme": "FILE",
+   "host": "",
+   "port": 0,
+   "path": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/v++_link_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_guidance.pb",
+   "query": "",
+   "fragment": "",
+   "media_type": "",
+   "encoding": "",
+   "data": ""
+  },
+  "build_target": "",
+  "config_files": [
+   {
+    "fileName": "run1.cfg",
+    "contents": "debug=1\n\n[connectivity]\nnk=krnl_vadd:1:krnl_vadd_1\n"
+   }
+  ]
+ },
+ "violation_count": 3,
+ "waived_count": 0,
+ "affirmation_count": 1,
+ "violations": {
+  "hashmap": {
+   "3": {
+    "id": 3,
+    "severity": "SEV_WARNING",
+    "rule_key": "IP-LOCK-01",
+    "examples": {
+     "uri": [
+      {
+       "link_text": "UG896",
+       "url": {
+        "scheme": "HTTPS",
+        "host": "",
+        "port": 0,
+        "path": "www.xilinx.com/support/documentation/sw_manuals/xilinx2019_2/ug896-vivado-ip.pdf",
+        "query": "",
+        "fragment": "",
+        "media_type": "",
+        "encoding": "",
+        "data": ""
+       },
+       "docgen_filename": ""
+      },
+      {
+       "link_text": "results of report IP status",
+       "url": {
+        "scheme": "FILE",
+        "host": "",
+        "port": 0,
+        "path": "/proj/xcohdstaff/mkeilson/nobkup/workspace2/iptest/Emulation-HW/vector_addition.build/link/vivado/vpl/link_guidance.txt",
+        "query": "",
+        "fragment": "",
+        "media_type": "",
+        "encoding": "",
+        "data": ""
+       },
+       "docgen_filename": ""
+      }
+     ]
+    },
+    "build_target": "",
+    "expects": "",
+    "details": {
+     "text": "In your vivado project:prj for design:dr the IP bd_387c_m00e_0 is locked. The IP is locked for the following reason - * IP definition 'SC EXIT (1.0)' for IP 'bd_387c_m00e_0' (customized with software release 2022.1) has a different revision in the IP Catalog.\n.",
+     "args": {
+      "arg": [
+       {
+        "string_val": "prj"
+       },
+       {
+        "string_val": "dr"
+       },
+       {
+        "string_val": "bd_387c_m00e_0"
+       },
+       {
+        "string_val": "* IP definition 'SC EXIT (1.0)' for IP 'bd_387c_m00e_0' (customized with software release 2022.1) has a different revision in the IP Catalog.\n"
+       }
+      ]
+     }
+    },
+    "resolution": {
+     "text": "Check the IP and the install area for the latest version of the IPs. For additional information about designing with IP - refer to !%0!. In vivado you can run the report_ip_status Tcl command for additional information. In addition, !%1! the can be viewed.",
+     "args": {
+      "arg": [
+       {
+        "uri": {
+         "link_text": "UG896",
+         "url": {
+          "scheme": "HTTP",
+          "host": "",
+          "port": 0,
+          "path": "www.xilinx.com/support/documentation/sw_manuals/xilinx2019_2/ug896-vivado-ip.pdf",
+          "query": "",
+          "fragment": "",
+          "media_type": "",
+          "encoding": "",
+          "data": ""
+         },
+         "docgen_filename": ""
+        },
+        "string_val": ""
+       },
+       {
+        "ref": {
+         "type": "FILE",
+         "name": "report_ip_status",
+         "id": 0,
+         "uuid": "",
+         "url": {
+          "scheme": "FILE",
+          "host": "",
+          "port": 0,
+          "path": "//mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/vivado/vpl/link_ip_guidance.txt",
+          "query": "",
+          "fragment": "",
+          "media_type": "",
+          "encoding": "",
+          "data": ""
+         },
+         "report_type": ""
+        },
+        "string_val": ""
+       }
+      ]
+     }
+    },
+    "categories": {
+     "0": "System",
+     "1": "Link",
+     "2": "IP"
+    },
+    "extended_categories": {},
+    "impact": "IMPACT_UNKNOWN",
+    "group": ""
+   },
+   "4": {
+    "id": 4,
+    "severity": "SEV_WARNING",
+    "rule_key": "IP-LOCK-01",
+    "examples": {
+     "uri": [
+      {
+       "link_text": "UG896",
+       "url": {
+        "scheme": "HTTPS",
+        "host": "",
+        "port": 0,
+        "path": "www.xilinx.com/support/documentation/sw_manuals/xilinx2019_2/ug896-vivado-ip.pdf",
+        "query": "",
+        "fragment": "",
+        "media_type": "",
+        "encoding": "",
+        "data": ""
+       },
+       "docgen_filename": ""
+      },
+      {
+       "link_text": "results of report IP status",
+       "url": {
+        "scheme": "FILE",
+        "host": "",
+        "port": 0,
+        "path": "/proj/xcohdstaff/mkeilson/nobkup/workspace2/iptest/Emulation-HW/vector_addition.build/link/vivado/vpl/link_guidance.txt",
+        "query": "",
+        "fragment": "",
+        "media_type": "",
+        "encoding": "",
+        "data": ""
+       },
+       "docgen_filename": ""
+      }
+     ]
+    },
+    "build_target": "",
+    "expects": "",
+    "details": {
+     "text": "In your vivado project:prj for design:dr the IP bd_387c_m01e_0 is locked. The IP is locked for the following reason - * IP definition 'SC EXIT (1.0)' for IP 'bd_387c_m01e_0' (customized with software release 2022.1) has a different revision in the IP Catalog.\n.",
+     "args": {
+      "arg": [
+       {
+        "string_val": "prj"
+       },
+       {
+        "string_val": "dr"
+       },
+       {
+        "string_val": "bd_387c_m01e_0"
+       },
+       {
+        "string_val": "* IP definition 'SC EXIT (1.0)' for IP 'bd_387c_m01e_0' (customized with software release 2022.1) has a different revision in the IP Catalog.\n"
+       }
+      ]
+     }
+    },
+    "resolution": {
+     "text": "Check the IP and the install area for the latest version of the IPs. For additional information about designing with IP - refer to !%0!. In vivado you can run the report_ip_status Tcl command for additional information. In addition, !%1! the can be viewed.",
+     "args": {
+      "arg": [
+       {
+        "uri": {
+         "link_text": "UG896",
+         "url": {
+          "scheme": "HTTP",
+          "host": "",
+          "port": 0,
+          "path": "www.xilinx.com/support/documentation/sw_manuals/xilinx2019_2/ug896-vivado-ip.pdf",
+          "query": "",
+          "fragment": "",
+          "media_type": "",
+          "encoding": "",
+          "data": ""
+         },
+         "docgen_filename": ""
+        },
+        "string_val": ""
+       },
+       {
+        "ref": {
+         "type": "FILE",
+         "name": "report_ip_status",
+         "id": 0,
+         "uuid": "",
+         "url": {
+          "scheme": "FILE",
+          "host": "",
+          "port": 0,
+          "path": "//mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/vivado/vpl/link_ip_guidance.txt",
+          "query": "",
+          "fragment": "",
+          "media_type": "",
+          "encoding": "",
+          "data": ""
+         },
+         "report_type": ""
+        },
+        "string_val": ""
+       }
+      ]
+     }
+    },
+    "categories": {
+     "0": "System",
+     "1": "Link",
+     "2": "IP"
+    },
+    "extended_categories": {},
+    "impact": "IMPACT_UNKNOWN",
+    "group": ""
+   },
+   "2": {
+    "id": 2,
+    "severity": "SEV_WARNING",
+    "rule_key": "IP-LOCK-01",
+    "examples": {
+     "uri": [
+      {
+       "link_text": "UG896",
+       "url": {
+        "scheme": "HTTPS",
+        "host": "",
+        "port": 0,
+        "path": "www.xilinx.com/support/documentation/sw_manuals/xilinx2019_2/ug896-vivado-ip.pdf",
+        "query": "",
+        "fragment": "",
+        "media_type": "",
+        "encoding": "",
+        "data": ""
+       },
+       "docgen_filename": ""
+      },
+      {
+       "link_text": "results of report IP status",
+       "url": {
+        "scheme": "FILE",
+        "host": "",
+        "port": 0,
+        "path": "/proj/xcohdstaff/mkeilson/nobkup/workspace2/iptest/Emulation-HW/vector_addition.build/link/vivado/vpl/link_guidance.txt",
+        "query": "",
+        "fragment": "",
+        "media_type": "",
+        "encoding": "",
+        "data": ""
+       },
+       "docgen_filename": ""
+      }
+     ]
+    },
+    "build_target": "",
+    "expects": "",
+    "details": {
+     "text": "In your vivado project:prj for design:dr the IP pfm_top_smartconnect_0_0 is locked. The IP is locked for the following reason - * The IP Data in the repository is incompatible with the current instance (despite having identical Version and Revision). You will need to upgrade the IP before viewing the customization and generating outputs.\n * IP 'pfm_top_smartconnect_0_0' contains one or more locked subcores.* Please upgrade the IP.\n.",
+     "args": {
+      "arg": [
+       {
+        "string_val": "prj"
+       },
+       {
+        "string_val": "dr"
+       },
+       {
+        "string_val": "pfm_top_smartconnect_0_0"
+       },
+       {
+        "string_val": "* The IP Data in the repository is incompatible with the current instance (despite having identical Version and Revision). You will need to upgrade the IP before viewing the customization and generating outputs.\n * IP 'pfm_top_smartconnect_0_0' contains one or more locked subcores.* Please upgrade the IP.\n"
+       }
+      ]
+     }
+    },
+    "resolution": {
+     "text": "Check the IP and the install area for the latest version of the IPs. For additional information about designing with IP - refer to !%0!. In vivado you can run the report_ip_status Tcl command for additional information. In addition, !%1! the can be viewed.",
+     "args": {
+      "arg": [
+       {
+        "uri": {
+         "link_text": "UG896",
+         "url": {
+          "scheme": "HTTP",
+          "host": "",
+          "port": 0,
+          "path": "www.xilinx.com/support/documentation/sw_manuals/xilinx2019_2/ug896-vivado-ip.pdf",
+          "query": "",
+          "fragment": "",
+          "media_type": "",
+          "encoding": "",
+          "data": ""
+         },
+         "docgen_filename": ""
+        },
+        "string_val": ""
+       },
+       {
+        "ref": {
+         "type": "FILE",
+         "name": "report_ip_status",
+         "id": 0,
+         "uuid": "",
+         "url": {
+          "scheme": "FILE",
+          "host": "",
+          "port": 0,
+          "path": "//mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/vivado/vpl/link_ip_guidance.txt",
+          "query": "",
+          "fragment": "",
+          "media_type": "",
+          "encoding": "",
+          "data": ""
+         },
+         "report_type": ""
+        },
+        "string_val": ""
+       }
+      ]
+     }
+    },
+    "categories": {
+     "0": "System",
+     "1": "Link",
+     "2": "IP"
+    },
+    "extended_categories": {},
+    "impact": "IMPACT_UNKNOWN",
+    "group": ""
+   }
+  }
+ },
+ "affirmations": {
+  "hashmap": {
+   "1": {
+    "id": 1,
+    "rule_key": "SYSLINK-1",
+    "examples": {
+     "uri": []
+    },
+    "build_target": "",
+    "expects": "",
+    "details": {
+     "text": "Created top level block diagram design dr.bd.tcl",
+     "args": {
+      "arg": [
+       {
+        "string_val": "dr.bd.tcl"
+       }
+      ]
+     }
+    },
+    "categories": {},
+    "extended_categories": {},
+    "group": ""
+   }
+  }
+ },
+ "specs_violated": {
+  "hashmap": {
+   "IP-LOCK-01": {
+    "key": "IP-LOCK-01",
+    "full_name": "IP - Locked IP",
+    "owner": "vitis",
+    "raw_msg": "In your vivado project:%s for design:%s the IP %s is locked. The IP is locked for the following reason - %s.",
+    "msg_abbrev": "",
+    "msg_id": "0",
+    "categories": {
+     "0": "System",
+     "1": "Link",
+     "2": "IP"
+    },
+    "resolution_msg": "Check the IP and the install area for the latest version of the IPs. For additional information about designing with IP - refer to !URI%1!. In vivado you can run the report_ip_status Tcl command for additional information. In addition, the !URI%2! can be viewed.",
+    "examples": {
+     "uri": [
+      {
+       "link_text": "UG896",
+       "url": {
+        "scheme": "HTTPS",
+        "host": "",
+        "port": 0,
+        "path": "www.xilinx.com/support/documentation/sw_manuals/xilinx2019_2/ug896-vivado-ip.pdf",
+        "query": "",
+        "fragment": "",
+        "media_type": "",
+        "encoding": "",
+        "data": ""
+       },
+       "docgen_filename": ""
+      },
+      {
+       "link_text": "results of report IP status",
+       "url": {
+        "scheme": "FILE",
+        "host": "",
+        "port": 0,
+        "path": "/proj/xcohdstaff/mkeilson/nobkup/workspace2/iptest/Emulation-HW/vector_addition.build/link/vivado/vpl/link_guidance.txt",
+        "query": "",
+        "fragment": "",
+        "media_type": "",
+        "encoding": "",
+        "data": ""
+       },
+       "docgen_filename": ""
+      }
+     ]
+    },
+    "severity": "SEV_WARNING",
+    "disposition": "ENABLED",
+    "expects": "",
+    "affirm_msg": "",
+    "dynamic_categories": {
+     "1": false,
+     "2": false,
+     "0": false
+    },
+    "extensible_categories": [],
+    "impact": "IMPACT_UNKNOWN",
+    "group": ""
+   }
+  }
+ },
+ "specs_affirmed": {
+  "hashmap": {
+   "SYSLINK-1": {
+    "key": "SYSLINK-1",
+    "full_name": "system_link Top Level BD Creation",
+    "owner": "system_link",
+    "raw_msg": "Created top level block diagram design %STR",
+    "msg_abbrev": "",
+    "msg_id": "0",
+    "categories": {},
+    "resolution_msg": "",
+    "severity": "SEV_FATAL",
+    "disposition": "ENABLED",
+    "expects": "",
+    "affirm_msg": "",
+    "dynamic_categories": {},
+    "extensible_categories": [],
+    "impact": "IMPACT_UNKNOWN",
+    "group": ""
+   }
+  }
+ }
+}
+

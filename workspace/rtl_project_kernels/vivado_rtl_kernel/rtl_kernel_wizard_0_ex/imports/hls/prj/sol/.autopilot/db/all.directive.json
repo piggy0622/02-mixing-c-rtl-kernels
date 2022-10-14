@@ -1,0 +1,18 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [{
+          "functionName": "rtl_kernel_wizard_0",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "\/mnt\/HLSNAS\/01.XkQjFq\/Vitis-Tutorials\/Hardware_Acceleration\/Feature_Tutorials\/02-mixing-c-rtl-kernels\/workspace\/rtl_project_kernels\/vivado_rtl_kernel\/rtl_kernel_wizard_0_ex\/imports\/hls\/run_hls.tcl",
+          "sourceLine": "9",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "rtl_kernel_wizard_0"
+              }]
+          }
+        }]
+    }]}

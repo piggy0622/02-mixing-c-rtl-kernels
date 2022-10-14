@@ -1,0 +1,164 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ link can be found at:
+	Reports: /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/reports/link
+	Log files: /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/logs/link
+INFO: [v++ 60-1548] Creating build summary session with primary output /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin.link_summary, at Thu Oct 13 19:56:43 2022
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Thu Oct 13 19:56:43 2022
+INFO: [v++ 60-1315] Creating rulecheck session with output '/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/reports/link/v++_link_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_guidance.html', at Thu Oct 13 19:56:44 2022
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_5_202210_1/xilinx_u50_gen3x16_xdma_5_202210_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_5_202210_1/hw_emu/hw_emu.xsa'
+INFO: [v++ 74-78] Compiler Version string: 2022.1
+INFO: [v++ 60-629] Linking for hardware emulation target
+INFO: [v++ 60-423]   Target device: xilinx_u50_gen3x16_xdma_5_202210_1
+INFO: [v++ 60-1332] Run 'run_link' status: Not started
+INFO: [v++ 60-1443] [19:56:47] Run run_link: Step system_link: Started
+INFO: [v++ 60-1453] Command Line: system_link --xo /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xo --config /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/syslinkConfig.ini --xpfm /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_5_202210_1/xilinx_u50_gen3x16_xdma_5_202210_1.xpfm --target emu --output_dir /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int --temp_dir /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/sys_link
+INFO: [v++ 60-1454] Run Directory: /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/run_link
+INFO: [SYSTEM_LINK 60-1316] Initiating connection to rulecheck server, at Thu Oct 13 19:56:48 2022
+INFO: [SYSTEM_LINK 82-70] Extracting xo v3 file /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xo
+INFO: [SYSTEM_LINK 82-53] Creating IP database /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-38] [19:56:48] build_xd_ip_db started: /opt/Xilinx/Vitis/2022.1/bin/build_xd_ip_db -ip_search 0  -sds-pf /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/sys_link/hw_emu.hpfm -clkid 0 -ip /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/sys_link/iprepo/xilinx_com_hls_krnl_vadd_1_0,krnl_vadd -o /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-37] [19:56:52] build_xd_ip_db finished successfully
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2270.895 ; gain = 0.000 ; free physical = 24246 ; free virtual = 77461
+INFO: [SYSTEM_LINK 82-51] Create system connectivity graph
+INFO: [SYSTEM_LINK 82-102] Applying explicit connections to the system connectivity graph: /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [SYSTEM_LINK 82-38] [19:56:52] cfgen started: /opt/Xilinx/Vitis/2022.1/bin/cfgen  -nk krnl_vadd:1:krnl_vadd_1 -dmclkid 0 -r /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [CFGEN 83-0] Kernel Specs: 
+INFO: [CFGEN 83-0]   kernel: krnl_vadd, num: 1  {krnl_vadd_1}
+INFO: [CFGEN 83-2226] Inferring mapping for argument krnl_vadd_1.a to HBM[0]
+INFO: [CFGEN 83-2226] Inferring mapping for argument krnl_vadd_1.b to HBM[0]
+INFO: [CFGEN 83-2226] Inferring mapping for argument krnl_vadd_1.c to HBM[0]
+INFO: [SYSTEM_LINK 82-37] [19:56:54] cfgen finished successfully
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2270.895 ; gain = 0.000 ; free physical = 24245 ; free virtual = 77460
+INFO: [SYSTEM_LINK 82-52] Create top-level block diagram
+INFO: [SYSTEM_LINK 82-38] [19:56:54] cf2bd started: /opt/Xilinx/Vitis/2022.1/bin/cf2bd  --linux --trace_buffer 1024 --input_file /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/sys_link/cfgraph/cfgen_cfgraph.xml --ip_db /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml --cf_name dr --working_dir /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/sys_link/_sysl/.xsd --temp_dir /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/sys_link --output_dir /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int
+INFO: [CF2BD 82-31] Launching cf2xd: cf2xd -linux -trace-buffer 1024 -i /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/sys_link/cfgraph/cfgen_cfgraph.xml -r /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o dr.xml
+INFO: [CF2BD 82-28] cf2xd finished successfully
+INFO: [CF2BD 82-31] Launching cf_xsd: cf_xsd -disable-address-gen -dn dr -dp /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/sys_link/_sysl/.xsd
+INFO: [CF2BD 82-28] cf_xsd finished successfully
+INFO: [SYSTEM_LINK 82-37] [19:56:56] cf2bd finished successfully
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2270.895 ; gain = 0.000 ; free physical = 24241 ; free virtual = 77460
+INFO: [v++ 60-1441] [19:56:56] Run run_link: Step system_link: Completed
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2209.316 ; gain = 0.000 ; free physical = 24289 ; free virtual = 77503
+INFO: [v++ 60-1443] [19:56:56] Run run_link: Step cf2sw: Started
+INFO: [v++ 60-1453] Command Line: cf2sw -sdsl /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/sdsl.dat -rtd /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/cf2sw.rtd -nofilter /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/cf2sw_full.rtd -xclbin /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/xclbin_orig.xml -o /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/xclbin_orig.1.xml
+INFO: [v++ 60-1454] Run Directory: /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/run_link
+INFO: [v++ 60-1441] [19:56:58] Run run_link: Step cf2sw: Completed
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2209.316 ; gain = 0.000 ; free physical = 24289 ; free virtual = 77503
+INFO: [v++ 60-1443] [19:56:58] Run run_link: Step rtd2_system_diagram: Started
+INFO: [v++ 60-1453] Command Line: rtd2SystemDiagram
+INFO: [v++ 60-1454] Run Directory: /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/run_link
+INFO: [v++ 60-1441] [19:56:58] Run run_link: Step rtd2_system_diagram: Completed
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.17 . Memory (MB): peak = 2209.316 ; gain = 0.000 ; free physical = 24272 ; free virtual = 77487
+INFO: [v++ 60-1443] [19:56:58] Run run_link: Step vpl: Started
+INFO: [v++ 60-1453] Command Line: vpl -t hw_emu -f xilinx_u50_gen3x16_xdma_5_202210_1 -g --remote_ip_cache /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/.ipcache --output_dir /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int --log_dir /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/logs/link --report_dir /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/reports/link --config /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/vplConfig.ini -k /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link --emulation_mode debug_waveform --no-info --iprepo /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/xo/ip_repo/xilinx_com_hls_krnl_vadd_1_0 --messageDb /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/run_link/vpl.pb /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/dr.bd.tcl
+INFO: [v++ 60-1454] Run Directory: /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/run_link
+
+****** vpl v2022.1 (64-bit)
+  **** SW Build 3524075 on 2022-04-13-17:42:45
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+INFO: [VPL 60-839] Read in kernel information from file '/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/kernel_info.dat'.
+INFO: [VPL 74-78] Compiler Version string: 2022.1
+INFO: [VPL 60-423]   Target device: xilinx_u50_gen3x16_xdma_5_202210_1
+INFO: [VPL 60-1032] Extracting hardware platform to /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/vivado/vpl/.local/hw_platform
+[19:57:13] Run vpl: Step create_project: Started
+Creating Vivado project.
+[19:57:43] Run vpl: Step create_project: Completed
+[19:57:43] Run vpl: Step create_bd: Started
+[19:57:51] Run vpl: Step create_bd: Completed
+[19:57:51] Run vpl: Step update_bd: Started
+[19:57:54] Run vpl: Step update_bd: Completed
+[19:57:54] Run vpl: Step generate_target: Started
+[19:59:04] Run vpl: Step generate_target: Completed
+[19:59:04] Run vpl: Step config_hw_emu.gen_scripts: Started
+[19:59:28] Run vpl: Step config_hw_emu.gen_scripts: Completed
+[19:59:28] Run vpl: Step config_hw_emu.compile: Started
+[20:00:05] Run vpl: Step config_hw_emu.compile: Completed
+[20:00:05] Run vpl: Step config_hw_emu.elaborate: Started
+[20:00:21] Run vpl: Step config_hw_emu.elaborate: Completed
+[20:00:22] Run vpl: FINISHED. Run Status: config_hw_emu.elaborate Complete!
+INFO: [v++ 60-1441] [20:00:28] Run run_link: Step vpl: Completed
+Time (s): cpu = 00:00:07 ; elapsed = 00:03:30 . Memory (MB): peak = 2209.316 ; gain = 0.000 ; free physical = 23537 ; free virtual = 77456
+INFO: [v++ 60-1443] [20:00:28] Run run_link: Step rtdgen: Started
+INFO: [v++ 60-1453] Command Line: rtdgen
+INFO: [v++ 60-1454] Run Directory: /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/run_link
+INFO: [v++ 60-991] clock name 'kernel_clk/clk' (clock ID '0') is being mapped to clock name 'DATA_CLK' in the xclbin
+INFO: [v++ 60-1230] The compiler selected the following frequencies for the runtime controllable kernel clock(s) and scalable system clock(s): Kernel (DATA) clock: kernel_clk/clk = 300, Kernel (KERNEL) clock: kernel_clk/clk = 300
+INFO: [v++ 60-1453] Command Line: cf2sw -a /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/address_map.xml -sdsl /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/sdsl.dat -xclbin /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/xclbin_orig.xml -rtd /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.rtd -o /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xml
+INFO: [v++ 60-1652] Cf2sw returned exit code: 0
+WARNING: [v++ 60-1455] Debuggable symbols are not generated successfully, clean up /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/consolidated.cf
+INFO: [v++ 60-1441] [20:00:32] Run run_link: Step rtdgen: Completed
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2209.316 ; gain = 0.000 ; free physical = 23505 ; free virtual = 77460
+INFO: [v++ 60-1443] [20:00:32] Run run_link: Step xclbinutil: Started
+INFO: [v++ 60-1453] Command Line: xclbinutil --add-section DEBUG_IP_LAYOUT:JSON:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/debug_ip_layout.rtd --add-section BITSTREAM:RAW:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/behav.xse --force --target hw_emu --key-value SYS:dfx_enable:false --add-section :JSON:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.rtd --add-section CLOCK_FREQ_TOPOLOGY:JSON:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_xml.rtd --add-section BUILD_METADATA:JSON:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_build.rtd --add-section EMBEDDED_METADATA:RAW:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xml --add-section SYSTEM_METADATA:RAW:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/systemDiagramModelSlrBaseAddress.json --key-value SYS:PlatformVBNV:xilinx_u50_gen3x16_xdma_5_202210_1 --output /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin
+INFO: [v++ 60-1454] Run Directory: /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/run_link
+XRT Build Version: 2.13.466 (2022.1)
+       Build Date: 2022-04-14 17:43:11
+          Hash ID: f5505e402c2ca1ffe45eb6d3a9399b23a0dc8776
+Creating a default 'in-memory' xclbin image.
+
+Section: 'DEBUG_IP_LAYOUT'(9) was successfully added.
+Size   : 872 bytes
+Format : JSON
+File   : '/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/debug_ip_layout.rtd'
+
+Section: 'BITSTREAM'(0) was successfully added.
+Size   : 38016410 bytes
+Format : RAW
+File   : '/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/behav.xse'
+
+Section: 'MEM_TOPOLOGY'(6) was successfully added.
+Format : JSON
+File   : 'mem_topology'
+
+Section: 'IP_LAYOUT'(8) was successfully added.
+Format : JSON
+File   : 'ip_layout'
+
+Section: 'CONNECTIVITY'(7) was successfully added.
+Format : JSON
+File   : 'connectivity'
+
+Section: 'CLOCK_FREQ_TOPOLOGY'(11) was successfully added.
+Size   : 274 bytes
+Format : JSON
+File   : '/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_xml.rtd'
+
+Section: 'BUILD_METADATA'(14) was successfully added.
+Size   : 2393 bytes
+Format : JSON
+File   : '/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_build.rtd'
+
+Section: 'EMBEDDED_METADATA'(2) was successfully added.
+Size   : 3132 bytes
+Format : RAW
+File   : '/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xml'
+
+Section: 'SYSTEM_METADATA'(22) was successfully added.
+Size   : 18899 bytes
+Format : RAW
+File   : '/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/systemDiagramModelSlrBaseAddress.json'
+Successfully wrote (38060185 bytes) to the output file: /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin
+Leaving xclbinutil.
+INFO: [v++ 60-1441] [20:00:33] Run run_link: Step xclbinutil: Completed
+Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.43 . Memory (MB): peak = 2209.316 ; gain = 0.000 ; free physical = 23470 ; free virtual = 77462
+INFO: [v++ 60-1443] [20:00:33] Run run_link: Step xclbinutilinfo: Started
+INFO: [v++ 60-1453] Command Line: xclbinutil --quiet --force --info /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin.info --input /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin
+INFO: [v++ 60-1454] Run Directory: /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/run_link
+INFO: [v++ 60-1441] [20:00:33] Run run_link: Step xclbinutilinfo: Completed
+Time (s): cpu = 00:00:00.2 ; elapsed = 00:00:00.42 . Memory (MB): peak = 2209.316 ; gain = 0.000 ; free physical = 23469 ; free virtual = 77461
+INFO: [v++ 60-1443] [20:00:33] Run run_link: Step generate_sc_driver: Started
+INFO: [v++ 60-1453] Command Line: 
+INFO: [v++ 60-1454] Run Directory: /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/run_link
+INFO: [v++ 60-1441] [20:00:33] Run run_link: Step generate_sc_driver: Completed
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2209.316 ; gain = 0.000 ; free physical = 23469 ; free virtual = 77461
+INFO: [v++ 60-244] Generating system estimate report...
+INFO: [v++ 60-1092] Generated system estimate report: /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/reports/link/system_estimate_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xtxt
+INFO: [v++ 60-586] Created krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin
+INFO: [v++ 60-1307] Run completed. Additional information can be found in:
+	Guidance: /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/reports/link/v++_link_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_guidance.html
+	Steps Log File: /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/logs/link/link.steps.log
+
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin.link_summary 
+INFO: [v++ 60-791] Total elapsed time: 0h 4m 2s

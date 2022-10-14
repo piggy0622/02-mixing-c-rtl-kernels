@@ -1,0 +1,10 @@
+INFO: [HW-EMU 01] Hardware emulation runs simulation underneath. Using a large data set will result in long simulation times. It is recommended that a small dataset is used for faster execution. The flow uses approximate models for Global memories and interconnect and hence the performance data generated is approximate.
+INFO: [HW-EMU 07-0] Please refer the path "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/.run/636185/hw_em/device0/binary_0/behav_waveform/xsim/simulate.log" for more detailed simulation infos, errors and warnings.
+INFO::[ Vitis-EM 22 ] [Time elapsed: 0 minute(s) 17 seconds, Emulation time: 0.385152 ms]
+Data transfer between kernel(s) and global memory(s)
+krnl_vadd_1:m_axi_gmem-HBM[0]          RD = 32.000 KB              WR = 0.000 KB        
+krnl_vadd_1:m_axi_gmem1-HBM[0]          RD = 0.000 KB               WR = 16.000 KB       
+
+INFO: [HW-EMU 06-0] Waiting for the simulator process to exit
+INFO: [HW-EMU 06-1] All the simulator processes exited successfully
+INFO: [HW-EMU 07-0] Please refer the path "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/.run/636185/hw_em/device0/binary_0/behav_waveform/xsim/simulate.log" for more detailed simulation infos, errors and warnings.

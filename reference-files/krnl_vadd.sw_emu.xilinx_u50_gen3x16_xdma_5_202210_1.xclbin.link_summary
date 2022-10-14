@@ -1,0 +1,588 @@
+<ENTRY>
+{
+ "thisFile": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin.link_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Thu Oct 13 19:53:13 2022",
+ "timestampMillis": "1665661993174",
+ "buildStep": {
+  "cmdId": "f2432d01-f91c-4dc8-94e6-f976d2938a1f",
+  "name": "v++",
+  "logFile": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/link.steps.log",
+  "commandLine": "/opt/Xilinx/Vitis/2022.1/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -t sw_emu --platform xilinx_u50_gen3x16_xdma_5_202210_1 --config run1.cfg --profile.data all:all:all --profile.stall all:all:all --profile.exec all:all:all -l -okrnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xo ",
+  "args": [
+   "-t",
+   "sw_emu",
+   "--platform",
+   "xilinx_u50_gen3x16_xdma_5_202210_1",
+   "--config",
+   "run1.cfg",
+   "--profile.data",
+   "all:all:all",
+   "--profile.stall",
+   "all:all:all",
+   "--profile.exec",
+   "all:all:all",
+   "-l",
+   "-okrnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin",
+   "krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xo"
+  ],
+  "iniFiles": [
+   {
+    "path": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/run1.cfg",
+    "content": "debug=1\n\n[connectivity]\nnk=krnl_vadd:1:krnl_vadd_1\n"
+   }
+  ],
+  "cwd": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Oct 13 19:53:13 2022",
+ "timestampMillis": "1665661993177",
+ "status": {
+  "cmdId": "f2432d01-f91c-4dc8-94e6-f976d2938a1f",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Thu Oct 13 19:53:16 2022",
+ "timestampMillis": "1665661996580",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u50_gen3x16_xdma_5_202210_1.xpfm",
+  "hardwareDsa": "",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_5_202210_1",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_LINK",
+  "target": "TT_SW_EMU",
+  "binaryContainer": {
+   "base": {
+    "type": "BT_UKNOWN",
+    "name": "krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1",
+    "file": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin",
+    "reports": [],
+    "uuid": ""
+   },
+   "kernels": []
+  },
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "krnl_vadd",
+     "file": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/xo/krnl_vadd/krnl_vadd/cpu_sources/krnl_vadd.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [
+     "krnl_vadd_1"
+    ],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2022.1. SW Build 3524075 on 2022-04-13-17:42:45"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Oct 13 19:53:16 2022",
+ "timestampMillis": "1665661996721",
+ "report": {
+  "path": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/systemDiagramModel.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "SYSTEM_DIAGRAM",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Thu Oct 13 19:53:16 2022",
+ "timestampMillis": "1665661996726",
+ "buildStep": {
+  "cmdId": "e1d27903-4518-489c-8900-0f4f0139ad97",
+  "name": "regiongen",
+  "logFile": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_regiongen.log",
+  "commandLine": "/opt/Xilinx/Vitis/2022.1/bin/../runtime/bin/regiongen_new -v -m /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xml -r /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.rtd -t alg -o xcl_top",
+  "args": [
+   "-v",
+   "-m",
+   "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xml",
+   "-r",
+   "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.rtd",
+   "-t",
+   "alg",
+   "-o",
+   "xcl_top"
+  ],
+  "iniFiles": [],
+  "cwd": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Oct 13 19:53:16 2022",
+ "timestampMillis": "1665661996726",
+ "status": {
+  "cmdId": "e1d27903-4518-489c-8900-0f4f0139ad97",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Oct 13 19:53:17 2022",
+ "timestampMillis": "1665661997390",
+ "status": {
+  "cmdId": "e1d27903-4518-489c-8900-0f4f0139ad97",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Thu Oct 13 19:53:17 2022",
+ "timestampMillis": "1665661997502",
+ "buildStep": {
+  "cmdId": "e9ca5e7e-ebd6-4790-9516-ecc86cb1812b",
+  "name": "gcc",
+  "logFile": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd/krnl_vadd_kernel_gcc.log",
+  "commandLine": "/opt/Xilinx/Vivado/2022.1/tps/lnx64/gcc-8.3.0/bin/gcc -I . -I /opt/Xilinx/Vitis_HLS/2022.1/bin/../include -I /opt/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/auto_cc/include -I /opt/Xilinx/Vitis_HLS/2022.1/bin/../common/technology/autopilot/opencl -I /opt/Xilinx/Vitis/2022.1/bin/../common/technology/autopilot/opencl -I /opt/Xilinx/Vitis/2022.1/bin/../data/emulation/include -I /usr/include/x86_64-linux-gnu -std=c++14 -g -I /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/src/kernel_cpp -g -fPIC -g -c -DHLS_STREAM_THREAD_SAFE -MD -MT obj/krnl_vadd.o -MP -MF obj/krnl_vadd.Cd /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/xo/krnl_vadd/krnl_vadd/cpu_sources/krnl_vadd.cpp -o obj/krnl_vadd.o",
+  "args": [
+   "-I",
+   ".",
+   "-I",
+   "/opt/Xilinx/Vitis_HLS/2022.1/bin/../include",
+   "-I",
+   "/opt/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/auto_cc/include",
+   "-I",
+   "/opt/Xilinx/Vitis_HLS/2022.1/bin/../common/technology/autopilot/opencl",
+   "-I",
+   "/opt/Xilinx/Vitis/2022.1/bin/../common/technology/autopilot/opencl",
+   "-I",
+   "/opt/Xilinx/Vitis/2022.1/bin/../data/emulation/include",
+   "-I",
+   "/usr/include/x86_64-linux-gnu",
+   "-std=c++14",
+   "-g",
+   "-I",
+   "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/src/kernel_cpp",
+   "-g",
+   "-fPIC",
+   "-g",
+   "-c",
+   "-DHLS_STREAM_THREAD_SAFE",
+   "-MD",
+   "-MT",
+   "obj/krnl_vadd.o",
+   "-MP",
+   "-MF",
+   "obj/krnl_vadd.Cd",
+   "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/xo/krnl_vadd/krnl_vadd/cpu_sources/krnl_vadd.cpp",
+   "-o",
+   "obj/krnl_vadd.o"
+  ],
+  "iniFiles": [],
+  "cwd": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Oct 13 19:53:17 2022",
+ "timestampMillis": "1665661997503",
+ "status": {
+  "cmdId": "e9ca5e7e-ebd6-4790-9516-ecc86cb1812b",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Oct 13 19:53:17 2022",
+ "timestampMillis": "1665661997768",
+ "status": {
+  "cmdId": "e9ca5e7e-ebd6-4790-9516-ecc86cb1812b",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Thu Oct 13 19:53:17 2022",
+ "timestampMillis": "1665661997980",
+ "buildStep": {
+  "cmdId": "f56dbc84-1b0d-4a42-bacf-21541446b81f",
+  "name": "ar",
+  "logFile": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd/krnl_vadd_ar.log",
+  "commandLine": "/opt/Xilinx/Vivado/2022.1/tps/lnx64/binutils-2.26/bin/ar -cr /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd/krnl_vadd.csim_cu.a /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd/obj/krnl_vadd.o",
+  "args": [
+   "-cr",
+   "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd/krnl_vadd.csim_cu.a",
+   "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd/obj/krnl_vadd.o"
+  ],
+  "iniFiles": [],
+  "cwd": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Oct 13 19:53:17 2022",
+ "timestampMillis": "1665661997981",
+ "status": {
+  "cmdId": "f56dbc84-1b0d-4a42-bacf-21541446b81f",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Oct 13 19:53:18 2022",
+ "timestampMillis": "1665661998228",
+ "status": {
+  "cmdId": "f56dbc84-1b0d-4a42-bacf-21541446b81f",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Thu Oct 13 19:53:18 2022",
+ "timestampMillis": "1665661998238",
+ "buildStep": {
+  "cmdId": "e7d55960-ac93-41ae-a93f-6ec8e160fd09",
+  "name": "g++",
+  "logFile": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_xcl_top_gpp.log",
+  "commandLine": "/opt/Xilinx/Vivado/2022.1/tps/lnx64/gcc-8.3.0/bin/g++ -I . -I /opt/Xilinx/Vitis_HLS/2022.1/bin/../include -I /opt/Xilinx/Vitis_HLS/2022.1/bin/../common/technology/autopilot/opencl -I /opt/Xilinx/Vitis/2022.1/bin/../common/technology/autopilot/opencl -I /opt/Xilinx/Vitis/2022.1/bin/../data/emulation/include -I /opt/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/auto_cc/include -fPIC -g -DHLS_STREAM_THREAD_SAFE -std=c++14 -fpermissive -c -MD -MT obj/xcl_top.o -MP -MF obj/xcl_top.CXXd xcl_top.cpp -o obj/xcl_top.o",
+  "args": [
+   "-I",
+   ".",
+   "-I",
+   "/opt/Xilinx/Vitis_HLS/2022.1/bin/../include",
+   "-I",
+   "/opt/Xilinx/Vitis_HLS/2022.1/bin/../common/technology/autopilot/opencl",
+   "-I",
+   "/opt/Xilinx/Vitis/2022.1/bin/../common/technology/autopilot/opencl",
+   "-I",
+   "/opt/Xilinx/Vitis/2022.1/bin/../data/emulation/include",
+   "-I",
+   "/opt/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/auto_cc/include",
+   "-fPIC",
+   "-g",
+   "-DHLS_STREAM_THREAD_SAFE",
+   "-std=c++14",
+   "-fpermissive",
+   "-c",
+   "-MD",
+   "-MT",
+   "obj/xcl_top.o",
+   "-MP",
+   "-MF",
+   "obj/xcl_top.CXXd",
+   "xcl_top.cpp",
+   "-o",
+   "obj/xcl_top.o"
+  ],
+  "iniFiles": [],
+  "cwd": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Oct 13 19:53:18 2022",
+ "timestampMillis": "1665661998240",
+ "status": {
+  "cmdId": "e7d55960-ac93-41ae-a93f-6ec8e160fd09",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Oct 13 19:53:19 2022",
+ "timestampMillis": "1665661999302",
+ "status": {
+  "cmdId": "e7d55960-ac93-41ae-a93f-6ec8e160fd09",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Thu Oct 13 19:53:19 2022",
+ "timestampMillis": "1665661999311",
+ "buildStep": {
+  "cmdId": "0074783c-e75c-4619-83f2-bc58c976bda7",
+  "name": "g++",
+  "logFile": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_top_gpp.log",
+  "commandLine": "/opt/Xilinx/Vivado/2022.1/tps/lnx64/gcc-8.3.0/bin/g++ -fPIC -DHLS_STREAM_THREAD_SAFE -std=c++14 -Wall -shared -Wl,--whole-archive,-soname,krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.so -o krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.so krnl_vadd/krnl_vadd.csim_cu.a obj/xcl_top.o -Wl,--no-whole-archive -Wl,--as-needed -L /opt/Xilinx/Vitis_HLS/2022.1/bin/../lib/lnx64.o -lhlsmathsim -L /opt/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/fpo_v7_0 -lgmp -lmpfr -lIp_floating_point_v7_0_bitacc_cmodel -Wl,-rpath,/opt/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/fpo_v7_0 -L /opt/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/fft_v9_1 -lIp_xfft_v9_1_bitacc_cmodel -L /opt/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/fir_v7_0 -lgmp -lIp_fir_compiler_v7_2_bitacc_cmodel -L /opt/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/lib/csim -lhlsmc++-GCC46 -L /opt/Xilinx/Vivado/2022.1/tps/lnx64/gcc-8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/ -lgcov",
+  "args": [
+   "-fPIC",
+   "-DHLS_STREAM_THREAD_SAFE",
+   "-std=c++14",
+   "-Wall",
+   "-shared",
+   "-Wl,--whole-archive,-soname,krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.so",
+   "-o",
+   "krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.so",
+   "krnl_vadd/krnl_vadd.csim_cu.a",
+   "obj/xcl_top.o",
+   "-Wl,--no-whole-archive",
+   "-Wl,--as-needed",
+   "-L",
+   "/opt/Xilinx/Vitis_HLS/2022.1/bin/../lib/lnx64.o",
+   "-lhlsmathsim",
+   "-L",
+   "/opt/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/fpo_v7_0",
+   "-lgmp",
+   "-lmpfr",
+   "-lIp_floating_point_v7_0_bitacc_cmodel",
+   "-Wl,-rpath,/opt/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/fpo_v7_0",
+   "-L",
+   "/opt/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/fft_v9_1",
+   "-lIp_xfft_v9_1_bitacc_cmodel",
+   "-L",
+   "/opt/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/fir_v7_0",
+   "-lgmp",
+   "-lIp_fir_compiler_v7_2_bitacc_cmodel",
+   "-L",
+   "/opt/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/lib/csim",
+   "-lhlsmc++-GCC46",
+   "-L",
+   "/opt/Xilinx/Vivado/2022.1/tps/lnx64/gcc-8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/",
+   "-lgcov"
+  ],
+  "iniFiles": [],
+  "cwd": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Oct 13 19:53:19 2022",
+ "timestampMillis": "1665661999312",
+ "status": {
+  "cmdId": "0074783c-e75c-4619-83f2-bc58c976bda7",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Oct 13 19:53:19 2022",
+ "timestampMillis": "1665661999379",
+ "status": {
+  "cmdId": "0074783c-e75c-4619-83f2-bc58c976bda7",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Oct 13 19:53:19 2022",
+ "timestampMillis": "1665661999424",
+ "report": {
+  "path": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_xml.rtd",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "XCLBIN_INFO",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Thu Oct 13 19:53:19 2022",
+ "timestampMillis": "1665661999430",
+ "buildStep": {
+  "cmdId": "507b0507-fbd4-46ea-926a-8ce0749b0d44",
+  "name": "xclbinutil",
+  "logFile": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_xclbinutil.log",
+  "commandLine": "/opt/Xilinx/Vitis/2022.1/bin/xclbinutil --add-section BITSTREAM:RAW:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.so --force --target sw_emu --add-section :JSON:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.rtd --append-section :JSON:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/appendSection.rtd --add-section CLOCK_FREQ_TOPOLOGY:JSON:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_xml.rtd --add-section BUILD_METADATA:JSON:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_build.rtd --add-section EMBEDDED_METADATA:RAW:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xml --add-section DEBUG_DATA:RAW:/dev/null --add-section SYSTEM_METADATA:RAW:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/systemDiagramModel.json --output /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin",
+  "args": [
+   "--add-section",
+   "BITSTREAM:RAW:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.so",
+   "--force",
+   "--target",
+   "sw_emu",
+   "--add-section",
+   ":JSON:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.rtd",
+   "--append-section",
+   ":JSON:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/appendSection.rtd",
+   "--add-section",
+   "CLOCK_FREQ_TOPOLOGY:JSON:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_xml.rtd",
+   "--add-section",
+   "BUILD_METADATA:JSON:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_build.rtd",
+   "--add-section",
+   "EMBEDDED_METADATA:RAW:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xml",
+   "--add-section",
+   "DEBUG_DATA:RAW:/dev/null",
+   "--add-section",
+   "SYSTEM_METADATA:RAW:/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/link/int/systemDiagramModel.json",
+   "--output",
+   "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin"
+  ],
+  "iniFiles": [],
+  "cwd": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Oct 13 19:53:19 2022",
+ "timestampMillis": "1665661999431",
+ "status": {
+  "cmdId": "507b0507-fbd4-46ea-926a-8ce0749b0d44",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Oct 13 19:53:19 2022",
+ "timestampMillis": "1665661999515",
+ "status": {
+  "cmdId": "507b0507-fbd4-46ea-926a-8ce0749b0d44",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Thu Oct 13 19:53:19 2022",
+ "timestampMillis": "1665661999518",
+ "buildStep": {
+  "cmdId": "55873927-fa3a-44ac-9981-693fb4d66170",
+  "name": "xclbinutil",
+  "logFile": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin.info",
+  "commandLine": "/opt/Xilinx/Vitis/2022.1/bin/xclbinutil --quiet --info --input /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin",
+  "args": [
+   "--quiet",
+   "--info",
+   "--input",
+   "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin"
+  ],
+  "iniFiles": [],
+  "cwd": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Oct 13 19:53:19 2022",
+ "timestampMillis": "1665661999519",
+ "status": {
+  "cmdId": "55873927-fa3a-44ac-9981-693fb4d66170",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Oct 13 19:53:19 2022",
+ "timestampMillis": "1665661999581",
+ "status": {
+  "cmdId": "55873927-fa3a-44ac-9981-693fb4d66170",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Oct 13 19:53:19 2022",
+ "timestampMillis": "1665661999765",
+ "report": {
+  "path": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/reports/link/v++_link_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Oct 13 19:53:19 2022",
+ "timestampMillis": "1665661999767",
+ "report": {
+  "path": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/v++_link_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_guidance.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Oct 13 19:53:19 2022",
+ "timestampMillis": "1665661999772",
+ "report": {
+  "path": "/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/logs/optraceViewer.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "OPERATION_TRACE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Oct 13 19:53:19 2022",
+ "timestampMillis": "1665661999778",
+ "status": {
+  "cmdId": "f2432d01-f91c-4dc8-94e6-f976d2938a1f",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>

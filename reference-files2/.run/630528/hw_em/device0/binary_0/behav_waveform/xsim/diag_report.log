@@ -1,0 +1,7 @@
+DIAG::[ LIVE_MSG : ]INFO::[ Vitis-EM 22 ] [Time elapsed: 0 minute(s) 22 seconds, Emulation time: 0.357263 ms]
+Data transfer between kernel(s) and global memory(s)
+krnl_vadd_1:m_axi_gmem-HBM[0]          RD = 32.000 KB              WR = 0.000 KB        
+krnl_vadd_1:m_axi_gmem1-HBM[0]          RD = 0.000 KB               WR = 16.000 KB       
+rtl_kernel_wizard_0_1:m00_axi-HBM[0]          RD = 16.000 KB              WR = 16.000 KB       
+
+

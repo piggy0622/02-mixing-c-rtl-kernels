@@ -1,0 +1,14 @@
+Wed Oct 12 15:42:15 2022: Server was asked to start on port: '33325'
+Wed Oct 12 15:42:15 2022: Server is using token UUID: 'a6d866cf-06eb-46b1-aa04-80613c0e7393'
+Wed Oct 12 15:42:15 2022: Attempting to start server on port '33325'
+Wed Oct 12 15:42:15 2022: XRC main fifo: created main fifo '/tmp/xrcmaina6d866cf-06eb-46b1-aa04-80613c0e7393', fd read = 11
+Wed Oct 12 15:42:15 2022: Running Rule Check Server
+Wed Oct 12 15:42:15 2022: Version 1.6.1
+Wed Oct 12 15:42:15 2022: Rule Check Server: Accepted socket connection from client
+Wed Oct 12 15:42:15 2022: EXCHANGE_TOKEN received, server token: a6d866cf-06eb-46b1-aa04-80613c0e7393, passed token: a6d866cf-06eb-46b1-aa04-80613c0e7393
+Wed Oct 12 15:58:41 2022: STOP_SERVER received, server token: a6d866cf-06eb-46b1-aa04-80613c0e7393, passed token: a6d866cf-06eb-46b1-aa04-80613c0e7393
+Wed Oct 12 15:58:41 2022: Socket received request to stop server.
+Wed Oct 12 15:58:41 2022: SERVER: destructor for server bound to port 33325
+Wed Oct 12 15:58:41 2022: XRC main fifo: Good unlink of /tmp/xrcmaina6d866cf-06eb-46b1-aa04-80613c0e7393
+Wed Oct 12 15:58:41 2022: Server exiting with status 0.
+Wed Oct 12 15:58:41 2022: Closing log file.

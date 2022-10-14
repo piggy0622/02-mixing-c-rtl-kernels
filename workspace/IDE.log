@@ -1,0 +1,26 @@
+15:42:13 DEBUG : Logs will be stored at '/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/workspace/IDE.log'.
+15:42:14 INFO  : Launching XSCT server: xsct -n  -interactive /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/workspace/temp_xsdb_launch_script.tcl
+15:42:14 INFO  : Platform repository initialization has completed.
+15:42:14 INFO  : Registering command handlers for Vitis TCF services
+15:42:18 INFO  : XSCT server has started successfully.
+15:42:18 INFO  : plnx-install-location is set to ''
+15:42:18 INFO  : Successfully done setting XSCT server connection channel  
+15:42:18 INFO  : Successfully done query RDI_DATADIR 
+15:42:18 INFO  : Successfully done setting workspace for the tool. 
+16:23:57 DEBUG : Logs will be stored at '/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/workspace/IDE.log'.
+16:23:58 INFO  : Launching XSCT server: xsct -n  -interactive /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/workspace/temp_xsdb_launch_script.tcl
+16:23:59 INFO  : Platform repository initialization has completed.
+16:24:02 INFO  : XSCT server has started successfully.
+16:24:02 INFO  : Successfully done setting XSCT server connection channel  
+16:24:02 INFO  : plnx-install-location is set to ''
+16:24:02 INFO  : Successfully done query RDI_DATADIR 
+16:24:02 INFO  : Successfully done setting workspace for the tool. 
+16:25:10 DEBUG : Logs will be stored at '/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/workspace/IDE.log'.
+16:25:10 INFO  : Launching XSCT server: xsct -n  -interactive /mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/workspace/temp_xsdb_launch_script.tcl
+16:25:11 INFO  : Platform repository initialization has completed.
+16:25:14 INFO  : Registering command handlers for Vitis TCF services
+16:25:14 INFO  : XSCT server has started successfully.
+16:25:14 INFO  : Successfully done setting XSCT server connection channel  
+16:25:14 INFO  : plnx-install-location is set to ''
+16:25:14 INFO  : Successfully done query RDI_DATADIR 
+16:25:14 INFO  : Successfully done setting workspace for the tool. 

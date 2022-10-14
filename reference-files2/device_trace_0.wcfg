@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/mnt/HLSNAS/01.XkQjFq/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files2/device_trace_0.wdb" id="1">
+         <top_modules>
+            <top_module name="Active" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="2" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject type="group" fp_name="xilinx_u50_gen3x16_xdma_5_202210_1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="label">xilinx_u50_gen3x16_xdma_5_202210_1</obj_property>
+      <obj_property name="Description_Data">xilinx_u50_gen3x16_xdma_5_202210_1</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="group" fp_name="krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="label">krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin</obj_property>
+         <obj_property name="Description_Data">krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="group" fp_name="Compute_Unit_krnl_vadd_1_-_No_Trace">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="label">Compute Unit krnl_vadd_1 - No Trace</obj_property>
+            <obj_property name="Description_Data">Activity in accelerator krnl_vadd:krnl_vadd_1</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="Compute_Unit_rtl_kernel_wizard_0_1_-_No_Trace">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="label">Compute Unit rtl_kernel_wizard_0_1 - No Trace</obj_property>
+            <obj_property name="Description_Data">Activity in accelerator rtl_kernel_wizard_0:rtl_kernel_wizard_0_1</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>
